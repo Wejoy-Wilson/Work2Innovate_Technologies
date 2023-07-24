@@ -1,0 +1,29 @@
+html{
+    background: powderblue;
+}
+h1 {
+    background: burlywood;
+}/*element selector*/
+.Home{
+    background: beige;
+}/*class selector*/
+#About{
+    background: wheat;
+}/*id selector*/
+#Contact{
+    background: wheat;
+}/*id selector*/
+a[draggable]{
+    color : black;
+}/*attribute selector*/
+a[draggable="false"]{
+    color : red;
+}/*attribute selector*/
+*{
+    color : blue;
+    text-align: center;
+}/*Universal selector*/
+img {
+    width: 150px;
+    height: 100px;
+}
